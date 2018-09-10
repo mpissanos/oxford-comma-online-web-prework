@@ -7,7 +7,7 @@ return "#{array[0]} and #{array[1]}"
       string << "#{array[i]}, "
       i += 1
     end
-    string << "and #{array[array.length-1]}"
+   return string << "and #{array[array.length-1]}"
    end
   end
 end
