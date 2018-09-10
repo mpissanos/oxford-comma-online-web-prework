@@ -2,8 +2,7 @@ def oxford_comma(array)
 if array.length == 1
   return array.join
 else if array.length == 2
-array.join(" and ")
-else 
+return "#array[0] and #{array[1]}"
     until i == array.length - 1
       string << "#{array[i]}, "
       i += 1
