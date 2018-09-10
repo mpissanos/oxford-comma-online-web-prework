@@ -5,7 +5,7 @@ else if array.length == 2
 array.join(" and ")
 else array .length > 2
   array.insert(-2, "and ")
-   array.join(",")
+   array.join(", ")
     end
   end
 end
