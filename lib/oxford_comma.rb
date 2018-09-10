@@ -6,7 +6,7 @@ array.join(" and ")
 else array .length > 2
   array.insert(-2, "and")
    array.join(", ")
-   array.delete_at(-2)
+  
     end
   end
 end
