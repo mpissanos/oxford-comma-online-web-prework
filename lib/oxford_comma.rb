@@ -8,5 +8,6 @@ return "#array[0] and #{array[1]}"
       i += 1
     end
     string << "and #{array[array.length-1]}"
+   end
   end
 end
